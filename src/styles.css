@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-color : #6b0000;
+    --overlay : rgba(160, 160, 160, 0.467);
+    --text-color-white : #fff;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 4px;
+}
+
+.form-button{
+    height: 35px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    color: var(--text-color-white);
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    
+}
+
+.form-button:hover{
+    color: var(--primary-color);
+    background-color: var(--text-color-white);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
