@@ -1,7 +1,9 @@
 :root{
     --primary-color : #6b0000;
-    --overlay : rgba(160, 160, 160, 0.467);
+    --alternate-color : #5e0440;
+    --overlay : #a0a0a077;
     --text-color-white : #fff;
+    --alert-color : red;
 }
 
 body{
@@ -45,4 +47,8 @@ body{
     background-color: var(--text-color-white);
     font-weight: bold;
     transition: 0.3s ease;
+}
+
+.error-p{
+    color:var(--alert-color);   
 }
