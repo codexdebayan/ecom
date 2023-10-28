@@ -4,6 +4,7 @@
     --overlay : #a0a0a077;
     --text-color-white : #fff;
     --alert-color : red;
+    --ok-color : green;
 }
 
 body{

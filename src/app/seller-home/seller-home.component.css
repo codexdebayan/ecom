@@ -1,0 +1,17 @@
+table{
+    text-align: left;
+    color: var(--primary-color);
+    border-collapse: collapse;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+table td , table th{
+    border: 1px solid  var(--primary-color);
+    padding: 10px;
+    min-width: 160pxs;
+}
+.adjust-update-link{
+    margin-left: 10px;
+}

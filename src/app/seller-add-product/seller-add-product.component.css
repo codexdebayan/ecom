@@ -1,0 +1,12 @@
+h1{
+    color: var(--primary-color);
+    text-align: center;
+}
+.add-product{
+    text-align: center;
+}
+
+.message-p{
+    color: var(--ok-color);
+    
+}

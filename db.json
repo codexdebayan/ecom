@@ -7,58 +7,30 @@
       "id": 1
     },
     {
-      "name": "one",
-      "password": "one",
-      "email": "one@gmail.com",
+      "name": "test",
+      "password": "q",
+      "email": "q",
       "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "128 Gb -Midnight black",
+      "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX425_.jpg",
+      "id": 1
     },
     {
-      "name": "two",
-      "password": "two",
-      "email": "two@gmail.com",
-      "id": 3
-    },
-    {
-      "name": "three",
-      "password": "three",
-      "email": "three@gmail.com",
-      "id": 4
-    },
-    {
-      "name": "DEBAYAN CHATTOPADHYAY",
-      "password": "dw",
-      "email": "dwq",
-      "id": 5
-    },
-    {
-      "name": "DEBAYAN CHATTOPADHYAY",
-      "password": "dw",
-      "email": "dwq",
-      "id": 6
-    },
-    {
-      "name": "DEBAYAN CHATTOPADHYAY",
-      "password": "dw",
-      "email": "dwq",
-      "id": 7
-    },
-    {
-      "name": "abc",
-      "password": "abc",
-      "email": "cxv",
-      "id": 8
-    },
-    {
-      "name": "DEBAYAN CHATTOPADHYAY",
-      "password": "wqdqw",
-      "email": "wqdwq",
-      "id": 9
-    },
-    {
-      "name": "abc",
-      "password": "abc",
-      "email": "abc@gmail.com",
-      "id": 10
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "128 Gb -Midnight black",
+      "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX425_.jpg",
+      "id": 2
     }
   ]
 }
