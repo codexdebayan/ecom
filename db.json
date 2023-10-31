@@ -15,85 +15,76 @@
   ],
   "products": [
     {
-      "name": "HP OMEN ",
-      "price": "98500",
-      "category": "Laptop",
-      "color": "Metal black",
-      "description": "HP OMEN Gaming Laptop, 13th Gen Intel Core i5-13420H, 6GB NVIDIA RTX 4050 GPU, 16.1-inch (40.9 cm), 120W TGP, FHD, IPS, 144Hz, 16GB DDR5, 512GB SSD, RGB Backlit KB, B&O (MSO, Black, 2.32 kg),wd0880TX",
-      "image": "https://m.media-amazon.com/images/I/71GUm2w6MiL._SX425_.jpg",
-      "id": 0
-    },
-    {
-      "name": "OnePlus 11 5G",
-      "price": "56998",
-      "category": "Mobile",
-      "color": "Green",
-      "description": "(Eternal Green, 8GB RAM, 128GB Storage)",
-      "image": "https://m.media-amazon.com/images/I/61amb0CfMGL._SX679_.jpg",
+      "name": "V-King",
+      "price": "250",
+      "category": "Platinum Series",
+      "color": "Black",
+      "description": "FLAIR Platinum Series V-King Ball Pen Blister Pack | Swiss Tip Technology With Twist Mechanism | Matte Finish Sleek Design With Gold Trims | Smooth Refillable Pen | Blue Ink, Pack Of 1",
+      "image": "https://m.media-amazon.com/images/I/61CRnG8vA-L._SX466_.jpg",
       "id": 1
     },
     {
-      "name": "iphone 14",
-      "price": "100000",
-      "category": "Mobile",
-      "color": "Black",
-      "description": "128 Gb - Midnight black",
-      "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX425_.jpg",
+      "name": "Stellar",
+      "price": "125",
+      "category": "Platinum Series",
+      "color": "Rose gold",
+      "description": "FLAIR Platinum Series Stellar Designer Metal Ball Pen Box Pack | Elegant Body Colour With Rose Gold Trims | Swiss Tip Technology With Retractable Mechanism | Smudge Free Writing | Blue Ink, Pack of 1",
+      "image": "https://m.media-amazon.com/images/I/51iSGzGEgKL._SX466_.jpg",
       "id": 2
     },
     {
-      "name": "realme narzo 60X 5G",
-      "price": "12999",
-      "category": "Mobile",
-      "color": "Stellar Green",
-      "description": "Stellar Green,6GB,128GB Storage ） Up to 2TB External Memory | 50 MP AI Primary Camera | Segments only 33W Supervooc Charge",
-      "image": "https://m.media-amazon.com/images/I/41tSQSq1xJL._SX300_SY300_QL70_FMwebp_.jpg",
-      "id": 7
-    },
-    {
-      "name": "OnePlus Nord CE 3 5G",
-      "price": "26998",
-      "category": "Mobile",
-      "color": "Aqua Surge",
-      "description": "(Aqua Surge, 8GB RAM, 128GB Storage)",
-      "image": "https://m.media-amazon.com/images/I/6175SlKKECL._SX679_.jpg",
-      "id": 8
-    },
-    {
-      "name": "Layasa",
-      "price": "399",
-      "category": "Shoe",
-      "color": "Pink",
-      "description": "Lightweight Casual Lace-up Sneaker for Women/Girls",
-      "image": "https://m.media-amazon.com/images/I/71dsmh1-tAL._UY500_.jpg",
-      "id": 9
-    },
-    {
-      "name": "Nike",
-      "price": " 5947",
-      "category": "Shoe",
+      "name": "Violine",
+      "price": "250",
+      "category": "Platinum Series",
       "color": "Black",
-      "description": "Nike Mens Air Max Impact 4 Running Shoe",
-      "image": "https://m.media-amazon.com/images/I/61SgBZ+SQ4L._UY535_.jpg",
-      "id": 10
+      "description": "FLAIR Platinum Series Violin Ball Pen Blister Pack | Swiss Tip Technology With Twist Mechanism | Classic Design With Smooth Writing Experience | Durable & Refillable Pen | Blue Ink, Pack Of 1",
+      "image": "https://m.media-amazon.com/images/I/710gLFjngPL._SX466_.jpg",
+      "id": 3
     },
     {
-      "name": "Nike",
-      "price": "5998",
-      "category": "Shoe",
-      "color": "Gold",
-      "description": "Nike Mens Air Max Impact 4 Running Shoe",
-      "image": "https://m.media-amazon.com/images/I/61qGQrJtHDL._SY535._SX._UX._SY._UY_.jpg",
-      "id": 11
+      "name": "Prime",
+      "price": "250",
+      "category": "Platinum Series",
+      "color": "Red",
+      "description": "FLAIR Platinum Series Prime Designer Metal Roller Ball Pen Box Pack | Elegant Color Finish With Chrome Plated Trims | Comfortable Grip For Smudge Free Writing | Blue Ink, Pack of 1",
+      "image": "https://m.media-amazon.com/images/I/61ugkOg3T7L._SX466_.jpg",
+      "id": 4
     },
     {
       "name": "MIlano",
       "price": "100",
-      "category": "Pen",
-      "color": "Silver",
-      "description": "Flar metal pen",
-      "image": "https://www.flairpens.com/images/products/metal-pens/carbonix-pack.webp",
-      "id": 12
+      "category": "Ball pen",
+      "color": "Black",
+      "description": "FLAIR Milano Designer Ball Pen Box Pack | Metal Body With Stylish Design | Retractable Mechanism For Smudge Free Writing | Durable, Refillable Pen | Blue Ink, Pack of 3",
+      "image": "https://m.media-amazon.com/images/I/41psAontg-L.jpg",
+      "id": 5
+    },
+    {
+      "name": "Grace",
+      "price": "100",
+      "category": "Ball pen",
+      "color": "Gold",
+      "description": "Flair Grace Designer Metal Ball Pen Unique\n",
+      "image": "https://m.media-amazon.com/images/I/41Vjny0RmnL.jpg",
+      "id": 6
+    },
+    {
+      "name": "Woody",
+      "price": "100",
+      "category": "Ball pen",
+      "color": "Black",
+      "description": "FLAIR Woody Ball Pen Wallet Pack | 0.7 mm Tip Size | Attractive Woody Design | Smooth Ink Flow System With Low-Viscosity Ink | Smudge Free Writing | Black Ink, Set Of 10 Pens",
+      "image": "https://m.media-amazon.com/images/I/51yCD7b5YrL._SX679_.jpg",
+      "id": 7
+    },
+    {
+      "name": "Creative",
+      "price": "449",
+      "category": "Hamper",
+      "color": "Yellow",
+      "description": "FLAIR Creative Series Art Club Combination Smart Kit | With Free Zipper Bag | Non-Toxic & Safe for Childrens | A Complete Coloring Kit | 12 Products & 17 Units, Body Color of Bag May Vary",
+      "image": "https://m.media-amazon.com/images/I/6101e1+RnhL._SX466_.jpg",
+      "id": 8
     }
   ],
   "users": [
@@ -110,20 +101,7 @@
       "id": 2
     }
   ],
-  "cart": [
-    {
-      "name": "HP OMEN ",
-      "price": "98500",
-      "category": "Laptop",
-      "color": "Metal black",
-      "description": "HP OMEN Gaming Laptop, 13th Gen Intel Core i5-13420H, 6GB NVIDIA RTX 4050 GPU, 16.1-inch (40.9 cm), 120W TGP, FHD, IPS, 144Hz, 16GB DDR5, 512GB SSD, RGB Backlit KB, B&O (MSO, Black, 2.32 kg),wd0880TX",
-      "image": "https://m.media-amazon.com/images/I/71GUm2w6MiL._SX425_.jpg",
-      "quantity": 1,
-      "productId": 0,
-      "userId": 2,
-      "id": 1
-    }
-  ],
+  "cart": [],
   "orders": [
     {
       "email": "cdebayan24@gmail.com",
@@ -156,6 +134,14 @@
       "totalPrice": 98600,
       "userId": 2,
       "id": 4
+    },
+    {
+      "email": "cdebayan24@gmail.com",
+      "address": "23/1/A, B.B. SEN ROAD",
+      "contact": "09593160722",
+      "totalPrice": 1100,
+      "userId": 1,
+      "id": 5
     }
   ]
 }
