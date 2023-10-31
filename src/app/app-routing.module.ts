@@ -10,6 +10,9 @@ import { SearchComponent } from './search/search.component';
 
 import { authGuard } from './auth.guard';
 import { UserAuthComponent } from './user-auth/user-auth.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { MyOrdersComponent } from './my-orders/my-orders.component';
 const routes: Routes = [
   {
     path: '',
@@ -44,6 +47,18 @@ const routes: Routes = [
   {
     path:'user-auth',
     component: UserAuthComponent
+  },
+  {
+    path:'cart-page',
+    component: CartPageComponent
+  },
+  {
+    path:'cart-page/checkout',
+    component: CheckoutComponent
+  },
+  {
+    path:'my-orders',
+    component:MyOrdersComponent
   }
   
 ];

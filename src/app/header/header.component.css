@@ -58,15 +58,19 @@ nav{
 
 h1 a{
     color: var(--primary-color);
+    animation: effect 2s linear infinite;
+
     text-decoration: none;
 }
 
 .suggested-result{
+    flex: 1;
     position: absolute;
     display: list-item !important; 
     z-index: 10;
     background-color: var(--overlay);
-    width: 420px;
+    /* min-width: 250px;
+    max-width:  260px; */
     top: 60px;
     border-radius: 0 0 5px 5px;
 }
@@ -83,3 +87,4 @@ h1 a{
     color: var(--text-color-white);
     padding-left: 10px;
 }
+

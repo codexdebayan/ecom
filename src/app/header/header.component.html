@@ -1,8 +1,8 @@
 <nav class="nav">
-  <h1>
-    <a routerLink="/"><i class="fa-solid fa-cart-shopping"></i> CartMaster</a>
+  <h1 class="title">
+    <a routerLink="/"> ShopNow</a>
   </h1>
-  <div *ngIf="menuType === 'default'" class="nav-search">
+  <div *ngIf="menuType !== 'seller'" class="nav-search">
     <input
       #searchInput
       type="text "
@@ -22,7 +22,9 @@
       <li><a routerLink="/">Home</a></li>
       <li><a routerLink="/seller-auth">Seller</a></li>
       <li><a routerLink="/user-auth">Login/Sign-up</a></li>
-      <li><a href="#">Cart({{cartItems}})</a></li>
+      <li>
+        <a routerLink="/user-auth">Cart({{ cartItems }})</a>
+      </li>
     </ul>
     <ul *ngSwitchCase="'seller'">
       <li>
@@ -37,14 +39,16 @@
     </ul>
     <ul *ngSwitchCase="'user'">
       <li><a routerLink="/">Home</a></li>
-      <li><a routerLink="/seller-auth">Seller</a></li>
       <li>
         <a href="#"
           >Welcome
           <span style="font-weight: bold">{{ userName | titlecase }}</span>
         </a>
       </li>
-      <li><a href="#">Cart({{cartItems}})</a></li>
+      <li><a routerLink="/my-orders">My-orders</a></li>
+      <li>
+        <a routerLink="/cart-page">Cart({{ cartItems }})</a>
+      </li>
       <li><a href="#" (click)="userLogout()">Logout</a></li>
     </ul>
   </div>

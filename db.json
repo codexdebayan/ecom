@@ -16,7 +16,7 @@
   "products": [
     {
       "name": "HP OMEN ",
-      "price": "₹98,500",
+      "price": "98500",
       "category": "Laptop",
       "color": "Metal black",
       "description": "HP OMEN Gaming Laptop, 13th Gen Intel Core i5-13420H, 6GB NVIDIA RTX 4050 GPU, 16.1-inch (40.9 cm), 120W TGP, FHD, IPS, 144Hz, 16GB DDR5, 512GB SSD, RGB Backlit KB, B&O (MSO, Black, 2.32 kg),wd0880TX",
@@ -25,7 +25,7 @@
     },
     {
       "name": "OnePlus 11 5G",
-      "price": "₹56,998",
+      "price": "56998",
       "category": "Mobile",
       "color": "Green",
       "description": "(Eternal Green, 8GB RAM, 128GB Storage)",
@@ -34,7 +34,7 @@
     },
     {
       "name": "iphone 14",
-      "price": "₹1,00,000",
+      "price": "100000",
       "category": "Mobile",
       "color": "Black",
       "description": "128 Gb - Midnight black",
@@ -43,7 +43,7 @@
     },
     {
       "name": "realme narzo 60X 5G",
-      "price": " ₹12,999",
+      "price": "12999",
       "category": "Mobile",
       "color": "Stellar Green",
       "description": "Stellar Green,6GB,128GB Storage ） Up to 2TB External Memory | 50 MP AI Primary Camera | Segments only 33W Supervooc Charge",
@@ -52,7 +52,7 @@
     },
     {
       "name": "OnePlus Nord CE 3 5G",
-      "price": "₹26,998",
+      "price": "26998",
       "category": "Mobile",
       "color": "Aqua Surge",
       "description": "(Aqua Surge, 8GB RAM, 128GB Storage)",
@@ -61,7 +61,7 @@
     },
     {
       "name": "Layasa",
-      "price": "₹399",
+      "price": "399",
       "category": "Shoe",
       "color": "Pink",
       "description": "Lightweight Casual Lace-up Sneaker for Women/Girls",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Nike",
-      "price": " ₹5,947",
+      "price": " 5947",
       "category": "Shoe",
       "color": "Black",
       "description": "Nike Mens Air Max Impact 4 Running Shoe",
@@ -79,12 +79,21 @@
     },
     {
       "name": "Nike",
-      "price": "₹5,998",
+      "price": "5998",
       "category": "Shoe",
       "color": "Gold",
       "description": "Nike Mens Air Max Impact 4 Running Shoe",
       "image": "https://m.media-amazon.com/images/I/61qGQrJtHDL._SY535._SX._UX._SY._UY_.jpg",
       "id": 11
+    },
+    {
+      "name": "MIlano",
+      "price": "100",
+      "category": "Pen",
+      "color": "Silver",
+      "description": "Flar metal pen",
+      "image": "https://www.flairpens.com/images/products/metal-pens/carbonix-pack.webp",
+      "id": 12
     }
   ],
   "users": [
@@ -93,44 +102,60 @@
       "email": "dsa@gmail.com",
       "password": "dsa",
       "id": 1
+    },
+    {
+      "name": "Codex Debayan",
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "id": 2
     }
   ],
   "cart": [
     {
-      "name": "iphone 14",
-      "price": "₹1,00,000",
-      "category": "Mobile",
-      "color": "Black",
-      "description": "128 Gb - Midnight black",
-      "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX425_.jpg",
+      "name": "HP OMEN ",
+      "price": "98500",
+      "category": "Laptop",
+      "color": "Metal black",
+      "description": "HP OMEN Gaming Laptop, 13th Gen Intel Core i5-13420H, 6GB NVIDIA RTX 4050 GPU, 16.1-inch (40.9 cm), 120W TGP, FHD, IPS, 144Hz, 16GB DDR5, 512GB SSD, RGB Backlit KB, B&O (MSO, Black, 2.32 kg),wd0880TX",
+      "image": "https://m.media-amazon.com/images/I/71GUm2w6MiL._SX425_.jpg",
       "quantity": 1,
-      "productId": 2,
+      "productId": 0,
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "cdebayan24@gmail.com",
+      "address": "23/1/A, B.B. SEN ROAD",
+      "contact": "09593160722",
+      "totalPrice": 98600,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 200100,
       "userId": 1,
       "id": 2
     },
     {
-      "name": "iphone 14",
-      "price": "₹1,00,000",
-      "category": "Mobile",
-      "color": "Black",
-      "description": "128 Gb - Midnight black",
-      "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX425_.jpg",
-      "quantity": 1,
-      "productId": 2,
-      "userId": 1,
-      "id": 5
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 6098,
+      "userId": 2,
+      "id": 3
     },
     {
-      "name": "OnePlus 11 5G",
-      "price": "₹56,998",
-      "category": "Mobile",
-      "color": "Green",
-      "description": "(Eternal Green, 8GB RAM, 128GB Storage)",
-      "image": "https://m.media-amazon.com/images/I/61amb0CfMGL._SX679_.jpg",
-      "quantity": 1,
-      "productId": 1,
-      "userId": 1,
-      "id": 7
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 98600,
+      "userId": 2,
+      "id": 4
     }
   ]
 }

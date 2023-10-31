@@ -26,14 +26,14 @@ export interface SignUp {
     color:string,
     image:string,
     description:string,
-    id:number| undefined,
-    quantity:undefined | number,
+    id:number | undefined,
+    quantity: number | undefined,
     productId:number,
     userId:number
   }
   
   export interface priceSummary{
-    price:number,
+    price:number ,
     discount:number,
     tax:number,
     delivery:number,
