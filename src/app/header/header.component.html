@@ -1,22 +1,51 @@
 <nav class="nav">
-  <h1><a routerLink="/"><i class="fa-solid fa-cart-shopping"></i> Shop24/7</a></h1>
+  <h1>
+    <a routerLink="/"><i class="fa-solid fa-cart-shopping"></i> CartMaster</a>
+  </h1>
   <div *ngIf="menuType === 'default'" class="nav-search">
-    <input type="text " placeholder="Search for product" />
-    <button>Search</button>
+    <input
+      #searchInput
+      type="text "
+      (keyup)="searchProduct($event)"
+      (blur)="hideSearch()"
+      placeholder="Search for product"
+    />
+    <button (click)="submitSearch(searchInput.value)">Search</button>
+    <ul class="suggested-result" *ngIf="searchResult">
+      <li *ngFor="let item of searchResult">
+        <a (mousedown)="redirectToDetails(item.id)">{{ item.name }}</a>
+      </li>
+    </ul>
   </div>
-
   <div [ngSwitch]="menuType">
     <ul *ngSwitchCase="'default'">
       <li><a routerLink="/">Home</a></li>
       <li><a routerLink="/seller-auth">Seller</a></li>
-      <li><a href="#">Login</a></li>
-      <li><a href="#">Cart(0)</a></li>
+      <li><a routerLink="/user-auth">Login/Sign-up</a></li>
+      <li><a href="#">Cart({{cartItems}})</a></li>
     </ul>
     <ul *ngSwitchCase="'seller'">
-      <li><a href="#" >Welcome  <span style="font-weight: bold;">{{sellerName | titlecase}}</span> </a></li>
+      <li>
+        <a href="#"
+          >Welcome
+          <span style="font-weight: bold">{{ sellerName | titlecase }}</span>
+        </a>
+      </li>
       <li><a routerLink="seller-add-product">Add Product</a></li>
       <li><a routerLink="/seller-home">List Products</a></li>
       <li><a href="#" (click)="logout()">Logout</a></li>
+    </ul>
+    <ul *ngSwitchCase="'user'">
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/seller-auth">Seller</a></li>
+      <li>
+        <a href="#"
+          >Welcome
+          <span style="font-weight: bold">{{ userName | titlecase }}</span>
+        </a>
+      </li>
+      <li><a href="#">Cart({{cartItems}})</a></li>
+      <li><a href="#" (click)="userLogout()">Logout</a></li>
     </ul>
   </div>
 </nav>

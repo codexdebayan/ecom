@@ -1,10 +1,18 @@
 :root{
-    --primary-color : #6b0000;
-    --alternate-color : #5e0440;
-    --overlay : #a0a0a077;
+    --primary-color : #0d2335;
+    --alternate-color : #05006b;
+    --overlay : #00000077;
+    --overlay-light : #b2b2b277;
     --text-color-white : #fff;
     --alert-color : red;
     --ok-color : green;
+    --black-color : black;
+
+    /* animamtion color */
+    --color-1:#000217;
+    --color-2:#1f2f46;
+    --color-3:#353a77;
+    --color-4:#5246a2;
 }
 
 body{
@@ -53,3 +61,30 @@ body{
 .error-p{
     color:var(--alert-color);   
 }
+
+.message-p{
+    color: var(--ok-color);
+}
+
+.carousel-caption{
+    background-color: var(--overlay);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: var(--black-color);
+    border-radius: 5px;
+}
+
+.invalid-input{
+    color: var(--alert-color);
+    font-size: 12px;
+    margin-top:-20px
+  }
+  button:disabled{
+    cursor: not-allowed;
+  }
+  .max-width{
+    width: 100%;
+  }  

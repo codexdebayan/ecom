@@ -1,0 +1,55 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+@keyframes flowAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 0; /* Twice the width to cover the entire screen */
+  }
+}
+
+.footer {
+  padding: 10px 10px 0 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* background-color: var(--primary-color); */
+  background: linear-gradient(
+    90deg,
+    var(--color-4),
+    var(--color-3),
+    var(--color-2),
+    var(--color-1),
+    var(--color-2),
+    var(--color-3),
+    var(--color-4)
+  );
+  background-size: 200% 100%;
+  animation: flowAnimation 5s linear infinite alternate; /* Use "alternate" to reverse the animation direction */
+  position: relative;
+}
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul li a {
+  color: var(--text-color-white);
+  text-decoration: none;
+}
+p {
+  color: var(--text-color-white);
+  font-size: small;
+  padding-top: 5px;
+  margin: 0;
+}
+
+p a {
+  text-decoration: none;
+  color: var(--text-color-white);
+}

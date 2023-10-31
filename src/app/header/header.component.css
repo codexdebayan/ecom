@@ -1,6 +1,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 10px 0;
 }
 
 .nav h1{
@@ -31,7 +32,7 @@ nav{
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .nav .nav-search input{
@@ -46,11 +47,11 @@ nav{
 
 .nav .nav-search button{
     /* flex: 1; */
-    color: var(--primary-color);
+    color: var(--text-color-white);
     cursor: pointer;
-    background-color: var(--overlay);
+    background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
-    height: 41px;
+    height: 35px;
     border-radius: 0 4px 4px 0;
     border-left: 0;
 }
@@ -58,4 +59,27 @@ nav{
 h1 a{
     color: var(--primary-color);
     text-decoration: none;
+}
+
+.suggested-result{
+    position: absolute;
+    display: list-item !important; 
+    z-index: 10;
+    background-color: var(--overlay);
+    width: 420px;
+    top: 60px;
+    border-radius: 0 0 5px 5px;
+}
+
+.suggested-result li{
+    /* border: 1px solid var(--text-color-white); */
+    padding: 5px;
+
+}
+
+.suggested-result li a {
+    cursor: pointer;
+    /* color: var(--primary-color); */
+    color: var(--text-color-white);
+    padding-left: 10px;
 }
