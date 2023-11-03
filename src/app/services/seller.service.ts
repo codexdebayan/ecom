@@ -41,7 +41,9 @@ export class SellerService {
         if(result && result.body.length){
           console.warn("User logged in")
           localStorage.setItem('seller',JSON.stringify(result.body))
-          this.router.navigate(['seller-home'])
+          setTimeout(()=>{
+            this.router.navigate(['seller-home'])
+          },1500)
         }else{
           console.warn("Login failed")
           this.isLoginError.emit(true)

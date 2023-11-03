@@ -1,6 +1,6 @@
 <nav class="nav">
   <h1 class="title">
-    <a routerLink="/"> ShopNow</a>
+    <a routerLink="/"><img src="../../assets/icon.svg" ></a>
   </h1>
   <div *ngIf="menuType !== 'seller'" class="nav-search">
     <input
@@ -28,7 +28,7 @@
     </ul>
     <ul *ngSwitchCase="'seller'">
       <li>
-        <a href="#"
+        <a 
           >Welcome
           <span style="font-weight: bold">{{ sellerName | titlecase }}</span>
         </a>
@@ -38,7 +38,7 @@
       <li><a href="#" (click)="logout()">Logout</a></li>
     </ul>
     <ul *ngSwitchCase="'user'">
-      <li><a routerLink="/">Home</a></li>
+      <!-- <li><a routerLink="/">Home</a></li> -->
       <li>
         <a href="#"
           >Welcome

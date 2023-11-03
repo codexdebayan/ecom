@@ -46,7 +46,6 @@ nav{
 }
 
 .nav .nav-search button{
-    /* flex: 1; */
     color: var(--text-color-white);
     cursor: pointer;
     background-color: var(--primary-color);

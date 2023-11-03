@@ -28,9 +28,9 @@
     <h3>Summary</h3>
     <ul *ngIf="priceSummary">
         <li> <span>Amount:</span><span>₹{{priceSummary.price}}</span></li>
-        <li> <span>Tax:</span><span>₹{{priceSummary.tax}}(10%)</span></li>
+        <li> <span>Tax:</span><span>₹{{priceSummary.tax}}(18%)</span></li>
         <li> <span>Delivery:</span><span>₹{{priceSummary.delivery}}</span></li>
-        <li> <span>Discount:</span><span>₹{{priceSummary.discount}}(10%)</span></li>
+        <li> <span>Discount:</span><span>₹{{priceSummary.discount}}(5%)</span></li>
         <li> <span><h4>Total</h4></span> <span><h4>₹{{priceSummary.total}}</h4></span></li>
         <button (click)="checkout()" class="form-button max-width " >Checkout</button>
     </ul>

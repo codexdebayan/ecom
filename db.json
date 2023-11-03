@@ -33,7 +33,7 @@
       "id": 2
     },
     {
-      "name": "Violine",
+      "name": "Violin",
       "price": "250",
       "category": "Platinum Series",
       "color": "Black",
@@ -142,6 +142,14 @@
       "totalPrice": 1100,
       "userId": 1,
       "id": 5
+    },
+    {
+      "email": "xyx@gmail.com",
+      "address": "LPU",
+      "contact": "1234567890",
+      "totalPrice": 382.5,
+      "userId": 1,
+      "id": 6
     }
   ]
 }

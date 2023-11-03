@@ -16,7 +16,7 @@ export class CartPageComponent implements OnInit {
     discount: 0,
     tax: 0,
     delivery: 0,
-    total: 0
+    total: 0,
   }
   constructor(private product: ProductService, private router: Router) { }
 
@@ -49,10 +49,10 @@ export class CartPageComponent implements OnInit {
           console.warn(price)
       })
       this.priceSummary.price = price;
-      this.priceSummary.discount = price / 10;
-      this.priceSummary.tax = price / 10;
+      this.priceSummary.discount = price*(5/100);
+      this.priceSummary.tax = price*(18/100);
       this.priceSummary.delivery = 100;
-      this.priceSummary.total = price + (price / 10) + 100 - (price / 10);
+      this.priceSummary.total = price + this.priceSummary.tax + this.priceSummary.delivery - this.priceSummary.discount;
 
     if(!this.cartData.length){
       this.router.navigate(['/'])
