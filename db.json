@@ -101,20 +101,7 @@
       "id": 2
     }
   ],
-  "cart": [
-    {
-      "name": "Grace",
-      "price": "100",
-      "category": "Ball pen",
-      "color": "Gold",
-      "description": "Flair Grace Designer Metal Ball Pen Unique\n",
-      "image": "https://m.media-amazon.com/images/I/41Vjny0RmnL.jpg",
-      "quantity": 1,
-      "productId": 6,
-      "userId": 1,
-      "id": 1
-    }
-  ],
+  "cart": [],
   "orders": [
     {
       "email": "cdebayan24@gmail.com",
@@ -179,6 +166,14 @@
       "totalPrice": 1738.5,
       "userId": 1,
       "id": 8
+    },
+    {
+      "email": "cdebayan24@gmail.com",
+      "address": "23/1/A, B.B. SEN ROAD",
+      "contact": "09593160722",
+      "totalPrice": 495.5,
+      "userId": 1,
+      "id": 9
     }
   ]
 }
