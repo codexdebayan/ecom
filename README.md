@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 
+## A few mockup ss of the projects
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/1.png)
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/2.png)
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/3.png)
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/4.png)
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/5.png)
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/6.png)
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/7.png)
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/8.png)
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/9.png)
+![Mockup of in app experience.](https://github.com/codexdebayan/ecom/blob/master/src/assets/ss/10.png)
+
 ## To use this project follow the following steps
 
 ### First of all clone the repository
