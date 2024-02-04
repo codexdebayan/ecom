@@ -10,7 +10,7 @@ export class UserService {
 invalidUserAuth= new EventEmitter<boolean>(false)
   constructor(private http: HttpClient, private router:Router) { }
   userSignUp(user:SignUp){
-   this.http.post('http://localhost:3000/users',user,{observe:'response'})
+   this.http.post('susers',user,{observe:'response'})
    .subscribe((result)=>{
     if(result){
       localStorage.setItem('user',JSON.stringify(result.body));
@@ -21,7 +21,7 @@ invalidUserAuth= new EventEmitter<boolean>(false)
     
   }
   userLogin(data:Login){
-    this.http.get<SignUp[]>(`http://localhost:3000/users?email=${data.email}&password=${data.password}`,
+    this.http.get<SignUp[]>(`https://ecom-api-bay.vercel.app/users?email=${data.email}&password=${data.password}`,
     {observe:'response'}
     ).subscribe((result)=>{
       if(result && result.body?.length){
