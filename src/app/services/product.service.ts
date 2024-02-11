@@ -39,7 +39,7 @@ export class ProductService {
 
   searchProduct(query: string) {
     return this.http.get<product[]>(
-      `https://codexdebayan.github.io/ecom-api/db.json/products?q=${query}`
+      `https://ecom-api-bay.vercel.app/products?q=${query}`
     );
   }
 
